@@ -3,7 +3,12 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "serve:web": "nx show project angular-app --web"
+    "serve:graph": "nx show project angular-app --web",
+    "serve:angular": "nx serve angular-app",
+    "build:angular": "nx build angular-app",
+    "test:angular": "nx test angular-app",
+    "lint:angular": "nx lint angular-app",
+    "e2e:angular": "nx e2e angular-app"
   },
   "private": true,
   "dependencies": {
